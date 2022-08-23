@@ -1,0 +1,218 @@
+/*font-family: 'Quicksand', sans-serif;*/
+
+body {
+	background: linear-gradient(24deg, #2a3c64 ,#9c9c9c);
+	}
+
+.caixa {
+	width: 940px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+	}
+
+.logo {
+	padding-left: 45px;
+    text-shadow: 3px 3px 5px hsl(0deg 2% 19%);
+    color: #2a3c64;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 60px;
+    letter-spacing: 45px;
+	}
+
+.titulo {
+    margin: 0 auto;
+    width: 940px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+	}
+
+.t2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	}
+
+.t3, .sub1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+	}
+
+.subTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+	}
+
+.redeSocial {
+	display: flex;
+    gap: 50px;
+	}
+
+.sub2 {
+    background: none;
+    border: none;      
+	}
+
+img {
+	height: 50px; 
+	transition: 2s all;
+	}
+
+img:hover {
+	transform: scale(1.2);
+	}
+
+.depoimento {
+    gap: 50px;
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+	}
+
+.review-box {
+	font-family: 'Quicksand', sans-serif;
+	padding: 20px;
+    display: flex;
+    font-size: 24px;
+    gap: 7px;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #cccccc;
+    border-radius: 20px;
+    transition: 2s;
+	}
+
+.comentários {
+	text-decoration: none;
+	color: #000000;
+	}
+
+.icon {
+    background-image: url(https://maps.gstatic.com/mapfiles/embed/images/entity11.png);
+    background-size: 70px 210px;
+	}
+
+.estrelas{
+	display: inline-flex;
+    align-items: center;		
+	}
+.rating-star {
+    width: 11px;
+    height: 11px;
+    overflow: hidden;      
+	}
+
+.rating-full-star {
+    background-position: 48px 165px;
+	}
+
+.review-box:hover {
+	transform: scale(1.05);
+}
+
+
+.dep1 {
+    padding-top: 9px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    display: inline-flex;
+    border-top: 0.4px solid;
+	}
+
+.elfsight-app-5bf1a7c8-5b9a-402a-b361-9fbd1b7f4e04 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	}
+
+.mapa {
+	width: 600px;
+	margin: 30px auto;
+	}
+
+.map {
+	display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+	}
+
+.map1 {
+	border-top: 0.4px solid;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    padding: 10px 0;
+    display: inline-flex;
+	}
+
+.map2 {
+	display: flex;
+    justify-content: center;
+	}
+
+.rodape {
+	display: flex;
+    padding: 40px;
+    width: 940px;
+    margin: 0 auto;
+    border-top: 0.4px solid;
+    justify-content: space-evenly;
+	}
+
+.rod {
+	font-family: 'Racing Sans One', cursive;
+	font-size: 24px;
+	}
+
+.rod2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+
+	}
+
+/*formatação para smartphones*/
+
+@media screen and (max-width: 480px) {
+	.caixa, .titulo, .mapa, .depoimento, .rodape, .corpo {
+		width: auto;
+		}
+
+	.logo {
+	    padding-left: unset;
+	    text-shadow: 3px 3px 5px hsl(0deg 2% 19%);
+	    color: #2a3c64;
+	    font-family: 'Racing Sans One', cursive;
+	    font-size: 60px;
+	    letter-spacing: unset;
+		}
+
+	.titulo {
+		padding: 30px 0;
+		text-align: center;
+		}
+
+	.t3, .sub1 {
+		padding: 10px;
+		text-align: justify;
+	}
+
+	.depoimento {
+		margin-bottom: 30px;
+
+		}
+
+	.mapa {
+		margin: 0 auto;
+		}
+
+	}
