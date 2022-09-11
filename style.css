@@ -90,6 +90,13 @@ img:hover {
     align-items: center;
 	}
 
+.fotoAvaliacao {
+    width: 300px;
+    border-radius: 25px;
+    height: 85px;
+    box-shadow: black 0px 0px 20px 5px;
+    }
+
 .review-box {
 	font-family: 'Quicksand', sans-serif;
 	padding: 20px;
