@@ -64,7 +64,7 @@ body {
 
 .redeSocial {
 	display: flex;
-    gap: 50px;
+    gap: 120px;
 	}
 
 .sub2 {
@@ -73,12 +73,12 @@ body {
 	}
 
 img {
-	height: 50px; 
+	height: 80px; 
 	transition: 2s all;
 	}
 
 img:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 	}
 
 .depoimento {
@@ -94,7 +94,7 @@ img:hover {
     width: 300px;
     border-radius: 25px;
     height: 85px;
-    box-shadow: black 0px 0px 20px 5px;
+    box-shadow: black 0px 0px 40px 0px;
     }
 
 .review-box {
@@ -177,6 +177,11 @@ img:hover {
 	display: flex;
     justify-content: center;
 	}
+
+.mapIframe {
+    border-radius: 30px;
+    box-shadow: black 0px 0px 40px 0px;
+    }
 
 .rodape {
 	gap: 20px;
